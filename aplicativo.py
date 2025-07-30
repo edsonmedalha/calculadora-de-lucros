@@ -39,7 +39,7 @@ if soma_probs < 1:
     aposta_b = (prob_b / soma_probs) * total_aposta
     
     # 4. Calcular o lucro
-    retorno_garantido = aposta_a * odd_a # O retorno é o mesmo para qualquer resultado
+    retorno_garantido = aposta_a * odd_a
     lucro_liquido = retorno_garantido - total_aposta
     percentual_lucro = (lucro_liquido / total_aposta) * 100
     
@@ -67,14 +67,3 @@ else:
 
 st.markdown("---")
 st.caption("Este aplicativo é uma ferramenta de cálculo e não garante resultados. Verifique sempre as odds nas casas de apostas antes de realizar qualquer operação.")
-```*   Role a tela para baixo e clique no botão verde grande que diz **"Commit new file"**.
-
-**Passo 3: Adicione o segundo arquivo**
-
-*   Depois de salvar, o GitHub te levará de volta à página principal do repositório. Agora você verá o arquivo `app.py` lá.
-*   Repita o processo: clique em **"Add file"** > **"Create new file"**.
-*   **No campo do nome**, digite: `requirements.txt`
-*   **Na caixa de texto**, digite apenas: `streamlit`
-*   Clique no botão verde **"Commit new file"**.
-
-Depois de fazer isso, essa tela inicial vai desaparecer para sempre e você verá seus dois arquivos listados. Aí, seu repositório estará pronto para o passo final
